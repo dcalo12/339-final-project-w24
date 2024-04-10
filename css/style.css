@@ -145,7 +145,7 @@ body{
 
 /* COLLAPSIBLE NAV MENU  */
 
-.menu-content {
+/* .menu-content {
     max-height: 0;
     overflow: hidden;
 }
@@ -185,11 +185,11 @@ input#menu {
 
 input:checked ~ .menu-content {
     max-height: 100%;
-}
+} */
 
 /* HIDING OLD NAV ELEMENTS  */
 
-nav ul li, nav{
+/* nav ul li, nav{
     display: none;
 }
 
@@ -199,7 +199,7 @@ body {
 
 img {
     min-width: 50%;
-}
+} */
 
 /* CHALLENGE ITEM  */
 
@@ -209,7 +209,7 @@ img {
     position: static;
 } */
 
-button {
+/* button {
     animation: shake 2s linear infinite;
     position: absolute;
     left: 29em;
@@ -253,4 +253,4 @@ button {
 label {
     font-family: 'Times New Roman', Times, serif;
     color: #9900CC;
-}
+} */
