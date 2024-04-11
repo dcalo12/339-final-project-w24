@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" type="text/css" href="css/mixitup-style.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dante's Personal Megami Tensei Page</title>
@@ -35,16 +36,101 @@
     <main>
         <div>
             <h1>Dante's Personal Megami Tensei Page</h1>
-            <img src = "assets/MegatenLogo.jpg" width = 400 alt = "The Japanese logo of the Megami Tensei franchise">
+            <img class = "logo" src = "assets/MegatenLogo.jpg" width = 400 alt = "The Japanese logo of the Megami Tensei franchise">
             <p>Welcome to my personal page about the Megami Tensei franchise, a collection of niche games (primarily JRPGs) I discovered a few years ago and have fallen in love with.</p>
             <p>This will contain pages for multiple game series, such as "Shin Megami Tensei," "Persona" (ew), "Devil Summoner," and more, depending on how in-depth I choose to go. These pages will have a breif synopsis if I've played them, a link to a Wikipedia article where applicable, lots of pictures to look at, and cool statistics like sales and critic scores.</p>
             <p>This is a HUGE franchise, so it wouldn't be productive to try and cover every single game it contains.</p>
-            <p>With that said, move to the navigation area and choose a series to look at!</p>
+            <p>With that said, move to the navigation area above and choose a series to look at!</p>
+                <div class = "timeline">
+                    <p>Alternatively, take a look at the interactive timeline <a href = "timeline.html">here</a> and navigate directly to its respective page!</p>
+                </div>
+                <div class = "timeline2">
+                    <p>Alternatively, take a look at the interactive timeline below and navigate directly to its respective page!</p>
+                    <div class="controls">
+                        <button type="button" class="control" data-sort="published-date:asc">Asc</button>
+                        <button type="button" class="control" data-sort="published-date:desc">Desc</button>
+                    </div>
+            
+                    <div class="container">
+                        <a href = "DeSumm.html" class="mix" data-published-date="2016-10-12">
+                            <div class="game-info">
+                                <h3>Shin Megami Tensei: Devil Summoner</h3>
+                                <img src="assets/Devil Summoner/DeSumm/DeSummBoxart.jpg" width="200" alt="Box art of the Sega Saturn version of the 'Devil Summoner' video game">
+                            </div>
+                        </a>
+                        <a href = "DeSumm.html" class="mix" data-published-date="2016-10-12">
+                            <div class="game-info">
+                                <h3>Shin Megami Tensei: Devil Summoner</h3>
+                                <img src="assets/Devil Summoner/DeSumm/DeSummBoxart.jpg" width="200" alt="Box art of the Sega Saturn version of the 'Devil Summoner' video game">
+                            </div>
+                        </a>
+                        <a href = "DeSumm.html" class="mix" data-published-date="2016-10-12">
+                            <div class="game-info">
+                                <h3>Shin Megami Tensei: Devil Summoner</h3>
+                                <img src="assets/Devil Summoner/DeSumm/DeSummBoxart.jpg" width="200" alt="Box art of the Sega Saturn version of the 'Devil Summoner' video game">
+                            </div>
+                        </a>
+                        <a href = "DeSumm.html" class="mix" data-published-date="2016-10-12">
+                            <div class="game-info">
+                                <h3>Shin Megami Tensei: Devil Summoner</h3>
+                                <img src="assets/Devil Summoner/DeSumm/DeSummBoxart.jpg" width="200" alt="Box art of the Sega Saturn version of the 'Devil Summoner' video game">
+                            </div>
+                        </a>
+                        <a href = "DeSumm.html" class="mix" data-published-date="2016-10-12">
+                            <div class="game-info">
+                                <h3>Shin Megami Tensei: Devil Summoner</h3>
+                                <img src="assets/Devil Summoner/DeSumm/DeSummBoxart.jpg" width="200" alt="Box art of the Sega Saturn version of the 'Devil Summoner' video game">
+                            </div>
+                        </a>
+                        <a href = "DeSumm.html" class="mix" data-published-date="2016-10-12">
+                            <div class="game-info">
+                                <h3>Shin Megami Tensei: Devil Summoner</h3>
+                                <img src="assets/Devil Summoner/DeSumm/DeSummBoxart.jpg" width="200" alt="Box art of the Sega Saturn version of the 'Devil Summoner' video game">
+                            </div>
+                        </a>
+                        <a href = "DeSumm.html" class="mix" data-published-date="2016-10-12">
+                            <div class="game-info">
+                                <h3>Shin Megami Tensei: Devil Summoner</h3>
+                                <img src="assets/Devil Summoner/DeSumm/DeSummBoxart.jpg" width="200" alt="Box art of the Sega Saturn version of the 'Devil Summoner' video game">
+                            </div>
+                        </a>
+                        <a href = "DeSumm.html" class="mix" data-published-date="2016-10-12">
+                            <div class="game-info">
+                                <h3>Shin Megami Tensei: Devil Summoner</h3>
+                                <img src="assets/Devil Summoner/DeSumm/DeSummBoxart.jpg" width="200" alt="Box art of the Sega Saturn version of the 'Devil Summoner' video game">
+                            </div>
+                        </a>
+                        <div class="mix" data-published-date="2016-09-03"></div>
+                        <div class="mix" data-published-date="2016-05-22"></div>
+                        <div class="mix" data-published-date="2016-05-19"></div>
+                        <div class="mix" data-published-date="2016-04-30"></div>
+                        <div class="mix" data-published-date="2016-04-24"></div>
+                        <div class="mix" data-published-date="2016-03-12"></div>
+                        <div class="mix" data-published-date="2016-01-01"></div>
+                        <div class="gap"></div>
+                        <div class="gap"></div>
+                        <div class="gap"></div>
+                    </div>
+                </div>
         </div>
+ 
     </main>
 
+    <script src = "js/mixitup.min.js"></script>
+    <script src = "js/script.js"></script>
+
+    <script>
+        var containerEl = document.querySelector('.container');
+
+        var mixer = mixitup(containerEl, {
+            load: {
+                sort: 'published-date:desc'
+            }
+        });
+    </script>
+
     <footer>
-        <p>All images courtesy of <a href = "https://megamitensei.fandom.com">https://megamitensei.fandom.com</a> and/or <a href = "https://megatenwiki.com/">https://megatenwiki.com/</a></p>
+        <p>All images shown on all pages courtesy of <a href = "https://megamitensei.fandom.com">https://megamitensei.fandom.com</a> and/or <a href = "https://megatenwiki.com/">https://megatenwiki.com/</a></p>
       </footer>
 </body>
 </html>
