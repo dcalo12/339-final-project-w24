@@ -2,32 +2,50 @@ body{
 	margin:1%;
 	font-size:125%;
     font-family: Arial, Helvetica, sans-serif;
+    color: #FFF;
+    background-color: #000;
+}
+
+img {
+    min-width: 100%;
 }
 
 h1{
 	font-size: 2.5em; 
 	font-weight: bold;
     text-align: center;
-    border-bottom: 3px solid #9900CC;
+    border-bottom: 3px solid #CC0000;
     border-radius: 9px;
+}
+
+a {
+    color: #CC0000;
 }
 
 .active{
     text-transform: uppercase;
 	text-align: center;
     color: #000;
-    background: #9900CC;
+    background: #CC0000;
     text-decoration: dotted underline;
 }
 
-
 .active a{
 	text-decoration: dotted underline;
-    color: #ECFF4D;
+    color: #CCCCCC;
 } 
 
+a:visited {
+    color: #CC0000;
+}
+
+.active a:visited {
+    text-decoration: dotted underline;
+    color: #CCCCCC;
+}
+
 h2{
-	font-size: 1.75em; 
+	font-size: 1.25em; 
 	font-weight: bold;
     text-align: center;
 }
@@ -51,16 +69,15 @@ ol {
 }
 
 header, nav, main, footer{
-	border: 3px solid #9900CC;
+	border: 3px solid #CC0000;
     border-radius: 9px;
 	margin: 10px;
 }
 
-
 /*Change the styling for all of the list 
 items in the nav section*/
 nav ul li{
-	background-color: #ECFF4D;
+	background-color: #CCCCCC;
 	padding:5px;
 	font-size: 80%;
 	border:1px solid black;
@@ -78,7 +95,7 @@ nav ul li{
 /* SKIP TO MAIN */
 
 .stmc {
-    background: #ECFF4D;
+    background: #CCCCCC;
     height: 30px;
     left: -100%;
     padding: 8px;
@@ -94,7 +111,7 @@ nav ul li{
 
 /* GRID */
 
-/* .grid-container {
+.grid-container {
     display: grid;
 }
 
@@ -105,7 +122,24 @@ img {
 
 video {
     min-width: 100%;
-}  */
+} 
+
+.DeSummPhotos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 5px solid #CC0000;
+    border-radius: 25px;
+    justify-items: center;
+    align-items: center;
+}
+
+.DeSummPhotos img {
+    /* border: 5px solid #9900CC; */
+    /* border-radius: 25px; */
+    padding: 10px;
+    /* margin: 10px; */
+    align-content: center;
+}
 
 /* NEW CONTENT ADDED FOR COLLAPSIBLE NAV MENU  */
 /* 
