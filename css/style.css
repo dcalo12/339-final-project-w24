@@ -147,147 +147,13 @@ video {
     align-content: center;
 }
 
-/* NEW CONTENT ADDED FOR COLLAPSIBLE NAV MENU  */
-/* 
+.timeline2 {
+    display: none;
+}
+
 .collapsible-menu {
     visibility: hidden;
     position: absolute;
-}
-
-.vid {
-    animation: none;
-}
-
-img {
-    min-width: 100%;
-    border: solid #9900CC 3px;
-    border-radius: 9px;
-}
-
-video {
-    max-width: 100%;
-    border: solid #9900CC 3px;
-    border-radius: 9px;
-} 
-
-body{
-    background-color: #B8B8B8;
-} */
-
-/* COLLAPSIBLE NAV MENU  */
-
-/* .menu-content {
-    max-height: 0;
-    overflow: hidden;
-}
-
-.collapsible-menu {
-    visibility: visible;
-    background-color: #ECFF4D;
-    position: static;
-}
-
-.collapsible-menu ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.collapsible-menu li {
-    border: solid 3px #9900CC;
-}
-
-.collapsible-menu a {
-    display: block;
-    padding: 10px;
-    text-decoration: none;
-}
-
-.collapsible-menu label {
-    font-size: 150%;
-    display: block;
-    cursor: pointer;
-    padding: 10px 10px 10px 10px;
-    border: solid 3px #9900CC;
-}
-
-input#menu {
-    display: none;
-}
-
-input:checked ~ .menu-content {
-    max-height: 100%;
-} */
-
-/* HIDING OLD NAV ELEMENTS  */
-
-/* nav ul li, nav{
-    display: none;
-}
-
-body {
-    background-color: #CCCCCC;
-}
-
-img {
-    min-width: 50%; 
-} */
-
-/* CHALLENGE ITEM  */
-
-/* .collapsible-menu {
-    visibility: visible;
-    background: #ECFF4D;
-    position: static;
-} */
-
-/* button {
-    animation: shake 2s linear infinite;
-    position: absolute;
-    left: 29em;
-    background-color: #ECFF4D;
-    height: 3em;
-    width: 15em;
-    font-size: 1em;
-    border: 5px solid #9900CC;
-}
-
-@keyframes shake {
-    0%, 5% {
-        transform: rotateZ(0);
-    }
-
-    15% {
-        transform: rotateZ(-5deg);
-    }
-
-    20% {
-        transform: rotateZ(4deg);
-    }
-
-    25% {
-        transform: rotateZ(-4deg);
-    }
-
-    30% {
-        transform: rotateZ(2deg);
-    }
-
-    35% {
-        transform: rotateZ(-1deg);
-    }
-
-    40%, 100% {
-        transform: rotateZ(0);
-    }
-}
-
-label {
-    font-family: 'Times New Roman', Times, serif;
-    color: #9900CC;
-} */
-
-.timeline2 {
-    display: none;
 }
 
 @media screen and (min-width: 750px) {
@@ -295,6 +161,54 @@ label {
     .logo {
         padding-left: 100px;
         padding-right: 100px;
+    }
+
+    .menu-content {
+        max-height: 0;
+        overflow: hidden;
+    }
+
+    .collapsible-menu {
+        visibility: visible;
+        background-color: #CCCCCC;
+        position: static;
+    }
+
+    .collapsible-menu ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .collapsible-menu li {
+        border: solid 3px #FF0000;
+    }
+
+    .collapsible-menu a {
+        display: block;
+        padding: 10px;
+        text-decoration: none;
+        font-size: 200%;
+    }
+
+    .collapsible-menu label {
+        color: #FF0000;
+        font-size: 200%;
+        display: block;
+        cursor: pointer;
+        padding: 10px 10px 10px 10px;
+        border: solid 3px #FF0000;
+    }
+
+    input#menu {
+        display: none;
+    }
+
+    input:checked ~ .menu-content {
+        max-height: 100%;
+    }
+
+    nav ul li, nav{
+        display: none;
     }
 }
 
