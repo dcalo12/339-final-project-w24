@@ -79,6 +79,11 @@ header, main, footer{
     display: visible;
 }
 
+.instruction {
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
 /*Change the styling for all of the list 
 items in the nav section*/
 nav ul li{
