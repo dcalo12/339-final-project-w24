@@ -20,7 +20,16 @@ h1{
 }
 
 a {
-    color: #CC0000;
+    color: #FFF;
+    font-weight: bold;
+}
+
+a:visited {
+    color: #FFF;
+}
+
+a.credit, .credit:visited {
+    color: #FFF;
 }
 
 .active{
@@ -33,16 +42,12 @@ a {
 
 .active a{
 	text-decoration: dotted underline;
-    color: #CCCCCC;
+    color: #FFF;
 } 
-
-a:visited {
-    color: #CC0000;
-}
 
 .active a:visited {
     text-decoration: dotted underline;
-    color: #CCCCCC;
+    color: #FFF;
 }
 
 h2{
@@ -87,7 +92,7 @@ header, main, footer{
 /*Change the styling for all of the list 
 items in the nav section*/
 nav ul li{
-	background-color: #CCCCCC;
+	background-color: #FFF;
 	padding:5px;
 	font-size: 80%;
 	border:1px solid black;
@@ -106,7 +111,7 @@ nav ul li{
 /* SKIP TO MAIN */
 
 .stmc {
-    background: #CCCCCC;
+    background: #FFF;
     height: 30px;
     left: -100%;
     padding: 8px;
@@ -161,6 +166,24 @@ video {
     position: absolute;
 }
 
+.menu-content > a {
+    max-height: 0;
+    overflow: hidden;
+    color: #CC0000;
+}
+
+.mix h3 {
+    color: #CC0000;
+}
+
+/* .mix > a {
+    color: #CC0000;
+}
+
+.mix > a:visited {
+    color: #CC0000;
+} */
+
 @media screen and (min-width: 750px) {
     
     .logo {
@@ -171,11 +194,12 @@ video {
     .menu-content {
         max-height: 0;
         overflow: hidden;
+        color: #CC0000;
     }
 
     .collapsible-menu {
         visibility: visible;
-        background-color: #CCCCCC;
+        background-color: #CC0000;
         position: static;
     }
 
@@ -196,7 +220,7 @@ video {
     }
 
     .collapsible-menu label {
-        color: #FF0000;
+        color: #FFF;
         font-size: 200%;
         display: block;
         cursor: pointer;
@@ -220,8 +244,8 @@ video {
 @media screen and (min-width: 900px) {
 
     .logo {
-        padding-left: 250px;
-        padding-right: 250px;
+        padding-left: 300px;
+        padding-right: 300px;
     }
     
     .timeline {
