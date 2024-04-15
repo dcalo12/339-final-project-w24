@@ -28,6 +28,14 @@ a:visited {
     color: #FFF;
 }
 
+nav > ul > li > a {
+    color: #CC0000;
+}
+
+nav > ul > li > a:visited {
+    color: #CC0000;
+}
+
 a.credit, .credit:visited {
     color: #FFF;
 }
@@ -195,6 +203,37 @@ video {
 
 @media screen and (min-width: 750px) {
     
+    a {
+        color: #FFF;
+        font-weight: bold;
+    }
+    
+    a:visited {
+        color: #FFF;
+    }
+    
+    a.credit, .credit:visited {
+        color: #FFF;
+    }
+    
+    .active{
+        text-transform: uppercase;
+        text-align: center;
+        color: #000;
+        background: #CC0000;
+        text-decoration: dotted underline;
+    }
+    
+    .active a{
+        text-decoration: dotted underline;
+        color: #FFF;
+    } 
+    
+    .active a:visited {
+        text-decoration: dotted underline;
+        color: #FFF;
+    }
+    
     .logo {
         padding-left: 100px;
         padding-right: 100px;
@@ -252,6 +291,37 @@ video {
 
 @media screen and (min-width: 900px) {
 
+    a {
+        color: #FFF;
+        font-weight: bold;
+    }
+    
+    a:visited {
+        color: #FFF;
+    }
+    
+    a.credit, .credit:visited {
+        color: #FFF;
+    }
+    
+    .active{
+        text-transform: uppercase;
+        text-align: center;
+        color: #000;
+        background: #CC0000;
+        text-decoration: dotted underline;
+    }
+    
+    .active a{
+        text-decoration: dotted underline;
+        color: #FFF;
+    } 
+    
+    .active a:visited {
+        text-decoration: dotted underline;
+        color: #FFF;
+    }
+    
     .logo {
         padding-left: 300px;
         padding-right: 300px;
