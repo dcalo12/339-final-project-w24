@@ -157,8 +157,17 @@ video {
     align-content: center;
 }
 
-.timeline2 {
+.controls, .container {
     display: none;
+}
+
+.controlsA, .containerA {
+    display: block;
+}
+
+
+.timeline {
+    display: block;
 }
 
 .collapsible-menu {
@@ -252,7 +261,11 @@ video {
         display: none;
     }
 
-    .timeline2 {
+    .controls, .container {
+        display: block;
+    }
+
+    .controlsA, .containerA {
         display: block;
     }
 }
