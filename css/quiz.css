@@ -86,6 +86,10 @@ body {
 }
 
 p {
+  color: black;
+}
+
+p.home {
   color: white;
 }
 
