@@ -70,7 +70,7 @@ h3 {
     text-align: center;
 }
 
-p, h1, h2, h3, li {
+p, h1, h2, h3, li, div, a {
     padding: 5px;
 }
 
@@ -148,6 +148,11 @@ video {
     min-width: 100%;
 } 
 
+iframe {
+    min-width: 50%;
+    /* min-height: 100%; */
+}
+
 .DeSummPhotos {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -169,9 +174,9 @@ video {
     display: none;
 }
 
-.controlsA, .containerA {
+/* .controlsA, .containerA {
     display: block;
-}
+} */
 
 
 .timeline {
