@@ -1,3 +1,5 @@
+/* UNLESS SPECIFIED, THE FOLLOWING CSS IS MOSTLY WRITTEN BY THE PEOPLE AT MIXITUP AND MODIFIED BY ME FOR MY OWN PURPOSES */
+
 .game-info {
     display: flex;
     flex-direction: column;
@@ -5,40 +7,35 @@
     text-align: center;
 }
 
-/* .game-info h3 {
+.game-info h3 {
     position: absolute;
     top: 0;
     left: 50%;
     transform: translateX(-50%);
-    margin: 0;
-    background-color: rgba(255, 255, 255, 0.7);
+    margin: 5px;
+    background-color: #FFFFFF;
     padding: 5px;
     border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 4px #000000;
     z-index: 0; 
-} */
+}
 
 .game-info img {
     display: block;
-    margin: 10px auto;
+    margin: 25px auto;
 }
 
 h3 {
     font-size: 15px;
-    padding-top: 20px;
+    /* padding-top: 20px; */
 }
 
-
-
-html,
-body {
+html, body {
     height: 100%;
     /* background: #f2f2f2; */
 }
 
-*,
-*:before,
-*:after {
+*, *:before, *:after {
     box-sizing: border-box;
 }
 
@@ -118,8 +115,7 @@ body {
 /* Target Elements
 ---------------------------------------------------------------------- */
 
-.mix,
-.gap {
+.mix, .gap {
     display: inline-block;
     vertical-align: top;
 }
@@ -155,16 +151,14 @@ body {
 
 /* 2 Columns */
 
-.mix,
-.gap {
+.mix, .gap {
     width: calc(100%/2 - (((2 - 1) * 1rem) / 2));
 }
 
 /* 3 Columns */
 
 @media screen and (min-width: 541px) {
-    .mix,
-    .gap {
+    .mix, .gap {
         width: calc(100%/3 - (((3 - 1) * 1rem) / 3));
     }
 }
@@ -172,8 +166,7 @@ body {
 /* 4 Columns */
 
 @media screen and (min-width: 961px) {
-    .mix,
-    .gap {
+    .mix, .gap {
         width: calc(100%/4 - (((4 - 1) * 1rem) / 4));
     }
 }
@@ -181,9 +174,124 @@ body {
 /* 5 Columns */
 
 @media screen and (min-width: 1281px) {
-    .mix,
-    .gap {
+    .mix, .gap {
         width: calc(100%/5 - (((5 - 1) * 1rem) / 5));
     }
 }
 
+/* MY OWN TIMELINE CSS TO GET IT TO COOPERATE WITH ME */
+
+body{
+	margin: 1%;
+	font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFF;
+    background-color: #000;
+}
+
+img {
+    min-width: 100%;
+    padding: 5px;
+}
+
+h1{
+	font-size: 2.5em; 
+	font-weight: bold;
+    text-align: center;
+    border-bottom: 3px solid #CC0000;
+}
+
+a {
+    color: #FFF;
+    font-weight: bold;
+} 
+
+a:visited {
+    color: #FFF;
+} 
+
+a.credit, .credit:visited {
+    color: #FFFFFF;
+}
+
+.active{
+    text-transform: uppercase;
+	text-align: center;
+    color: #000000;
+    background: #CC0000;
+    text-decoration: dotted underline;
+} */
+
+.active a{
+	text-decoration: dotted underline;
+    color: #FFF;
+} 
+
+.active a:visited {
+    text-decoration: dotted underline;
+    color: #FFF;
+}
+
+h2{
+	font-size: 1.25em; 
+	font-weight: bold;
+    text-align: center;
+}
+
+h3 {
+    font-weight: bold;
+    text-align: center;
+}
+
+p, h1, h2, h3, li, div, a {
+    padding: 5px;
+}
+
+header, main, footer{
+	border: 3px solid #CC0000;
+    border-radius: 9px;
+	margin: 10px;
+}
+
+.instruction {
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+
+/* SKIP TO MAIN */
+
+/* .stmc {
+    background: #FFF;
+    height: 30px;
+    left: -100%;
+    padding: 8px;
+    position: absolute;
+    transform: translateY(-100%);
+    transition: transform 0.3s;
+}
+  
+.stmc:focus {
+    transform: translateY(0%);
+    left: 0%;
+} */
+
+.timeline {
+    display: block;
+}
+
+.mix h3 {
+    color: #CC0000;
+}
+
+.mix > a {
+    color: #CC0000;
+}
+
+.mix > a:visited {
+    color: #CC0000;
+}
+
+.controls, .container {
+    display: block;
+}
