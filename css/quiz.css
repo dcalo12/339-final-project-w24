@@ -83,8 +83,15 @@ p {
 
 p.home {
   color: #FFFFFF;
+  padding: 5px;
+  font-size: 25px;
+}
+
+a {
+  color: #FFFFFF;
 }
 
 a:visited {
   color: #FFFFFF;
 }
+
