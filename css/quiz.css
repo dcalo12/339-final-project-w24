@@ -81,17 +81,11 @@ p {
   color: #000000;
 }
 
-p.home {
-  color: #FFFFFF;
-  padding: 5px;
-  font-size: 25px;
-}
-
 a {
-  color: #FFFFFF;
+  color: #000000;
 }
 
 a:visited {
-  color: #FFFFFF;
+  color: #000000;
 }
 
